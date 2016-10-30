@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31D522B216D3ECA58E62EE5C /* TennisGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D52458D8C7395942D9F8FF /* TennisGame.swift */; };
+		31D5275250ADB041F535286E /* TennisGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D52458D8C7395942D9F8FF /* TennisGame.swift */; };
 		75E4A0FE1D8E6CF50018B098 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4A0FD1D8E6CF50018B098 /* AppDelegate.swift */; };
 		75E4A1001D8E6CF50018B098 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E4A0FF1D8E6CF50018B098 /* ViewController.swift */; };
 		75E4A1031D8E6CF50018B098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E4A1011D8E6CF50018B098 /* Main.storyboard */; };
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31D52458D8C7395942D9F8FF /* TennisGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TennisGame.swift; sourceTree = "<group>"; };
 		75E4A0FA1D8E6CF50018B098 /* KataTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E4A0FD1D8E6CF50018B098 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75E4A0FF1D8E6CF50018B098 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +86,7 @@
 				75E4A1041D8E6CF50018B098 /* Assets.xcassets */,
 				75E4A1061D8E6CF50018B098 /* LaunchScreen.storyboard */,
 				75E4A1091D8E6CF50018B098 /* Info.plist */,
+				31D52458D8C7395942D9F8FF /* TennisGame.swift */,
 			);
 			path = KataTennis;
 			sourceTree = "<group>";
@@ -141,7 +145,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Kim SAVAROCHE";
 				TargetAttributes = {
 					75E4A0F91D8E6CF50018B098 = {
@@ -203,6 +207,7 @@
 			files = (
 				75E4A1001D8E6CF50018B098 /* ViewController.swift in Sources */,
 				75E4A0FE1D8E6CF50018B098 /* AppDelegate.swift in Sources */,
+				31D5275250ADB041F535286E /* TennisGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75E4A1131D8E6CF50018B098 /* KataTennisTests.swift in Sources */,
+				31D522B216D3ECA58E62EE5C /* TennisGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +268,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -312,6 +319,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -412,6 +420,7 @@
 				75E4A1191D8E6CF50018B098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75E4A11A1D8E6CF50018B098 /* Build configuration list for PBXNativeTarget "KataTennisTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				75E4A11C1D8E6CF50018B098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
